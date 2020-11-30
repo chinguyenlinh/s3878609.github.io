@@ -1,0 +1,25 @@
+created offline
+git branch
+git checkout newbranch
+git push origin newbranch1
+git add
+git commit -m ""
+
+
+first, work on newbranch1
+
+git checkout newbranch1
+create a file conflict1.txt
+git add . -> git commit -> git push origin newbranch1
+
+second, i work on main
+git checkout main
+create a file with a same name conflict1.txt
+gti add . -> git commit -> git merge newbranch1
+at this point, git will complain and suggest me to resolve by accepting which version of the file conflict1.txt
+resolve conflict
+git add . -> git commit -> git push
+
+asm 2 "tutorial": have one web page dedictaed to teaching everyone how to use git n github
+
+create a picture folder and push all picture there (for example cat.jpd and refer to that in the html img src command)
